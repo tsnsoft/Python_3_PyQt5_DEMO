@@ -1,258 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-    <class>Dialog</class>
-    <widget class="QDialog" name="Dialog">
-        <property name="geometry">
-            <rect>
-                <x>0</x>
-                <y>0</y>
-                <width>640</width>
-                <height>200</height>
-            </rect>
-        </property>
-        <property name="minimumSize">
-            <size>
-                <width>640</width>
-                <height>200</height>
-            </size>
-        </property>
-        <property name="maximumSize">
-            <size>
-                <width>640</width>
-                <height>200</height>
-            </size>
-        </property>
-        <property name="windowTitle">
-            <string>Dialog</string>
-        </property>
-        <widget class="QLabel" name="label_x">
-            <property name="geometry">
-                <rect>
-                    <x>12</x>
-                    <y>106</y>
-                    <width>21</width>
-                    <height>20</height>
-                </rect>
-            </property>
-            <property name="font">
-                <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                </font>
-            </property>
-            <property name="text">
-                <string>x =</string>
-            </property>
-        </widget>
-        <widget class="QLineEdit" name="lineEdit_a">
-            <property name="geometry">
-                <rect>
-                    <x>40</x>
-                    <y>18</y>
-                    <width>115</width>
-                    <height>31</height>
-                </rect>
-            </property>
-            <property name="font">
-                <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                </font>
-            </property>
-            <property name="styleSheet">
-                <string notr="true">border: 1px solid gray;
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>200</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>200</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_x">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>106</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>x =</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_a">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>18</y>
+     <width>115</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;
                     border-radius: 5px;
                 </string>
-            </property>
-        </widget>
-        <widget class="QLabel" name="label_b">
-            <property name="geometry">
-                <rect>
-                    <x>12</x>
-                    <y>64</y>
-                    <width>21</width>
-                    <height>20</height>
-                </rect>
-            </property>
-            <property name="font">
-                <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                </font>
-            </property>
-            <property name="text">
-                <string>b =</string>
-            </property>
-        </widget>
-        <widget class="QLineEdit" name="lineEdit_b">
-            <property name="geometry">
-                <rect>
-                    <x>40</x>
-                    <y>60</y>
-                    <width>115</width>
-                    <height>31</height>
-                </rect>
-            </property>
-            <property name="font">
-                <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                </font>
-            </property>
-            <property name="styleSheet">
-                <string notr="true">border: 1px solid gray;
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_b">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>64</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>b =</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_b">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>115</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;
                     border-radius: 5px;
                 </string>
-            </property>
-        </widget>
-        <widget class="QPushButton" name="btn_solve">
-            <property name="geometry">
-                <rect>
-                    <x>168</x>
-                    <y>140</y>
-                    <width>125</width>
-                    <height>50</height>
-                </rect>
-            </property>
-            <property name="font">
-                <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                </font>
-            </property>
-            <property name="styleSheet">
-                <string notr="true">border: 1px solid gray;
-                    border-radius: 5px;
-                    background: #e1e1e1;
-                </string>
-            </property>
-            <property name="text">
-                <string>Решить</string>
-            </property>
-        </widget>
-        <widget class="QPushButton" name="btn_clear">
-            <property name="geometry">
-                <rect>
-                    <x>301</x>
-                    <y>140</y>
-                    <width>125</width>
-                    <height>50</height>
-                </rect>
-            </property>
-            <property name="font">
-                <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                </font>
-            </property>
-            <property name="styleSheet">
-                <string notr="true">border: 1px solid gray;
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_solve">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>140</y>
+     <width>125</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 10px solid rgb(85, 170, 0);
                     border-radius: 5px;
                     background: #e1e1e1;
                 </string>
-            </property>
-            <property name="text">
-                <string>Очистить</string>
-            </property>
-        </widget>
-        <widget class="QLabel" name="label_a">
-            <property name="geometry">
-                <rect>
-                    <x>12</x>
-                    <y>21</y>
-                    <width>21</width>
-                    <height>20</height>
-                </rect>
-            </property>
-            <property name="font">
-                <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                </font>
-            </property>
-            <property name="text">
-                <string>a =</string>
-            </property>
-        </widget>
-        <widget class="QLineEdit" name="lineEdit_x">
-            <property name="geometry">
-                <rect>
-                    <x>40</x>
-                    <y>102</y>
-                    <width>115</width>
-                    <height>31</height>
-                </rect>
-            </property>
-            <property name="font">
-                <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                </font>
-            </property>
-            <property name="styleSheet">
-                <string notr="true">border: 1px solid gray;
+   </property>
+   <property name="text">
+    <string>Решить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_clear">
+   <property name="geometry">
+    <rect>
+     <x>301</x>
+     <y>140</y>
+     <width>125</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 	5px solid gray;
+                    border-radius: 5px;
+                    background: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(35, 40, 3, 255), stop:0.16 rgba(136, 106, 22, 255), stop:0.225 rgba(166, 140, 41, 255), stop:0.285 rgba(204, 181, 74, 255), stop:0.345 rgba(235, 219, 102, 255), stop:0.415 rgba(245, 236, 112, 255), stop:0.52 rgba(209, 190, 76, 255), stop:0.57 rgba(187, 156, 51, 255), stop:0.635 rgba(168, 142, 42, 255), stop:0.695 rgba(202, 174, 68, 255), stop:0.75 rgba(218, 202, 86, 255), stop:0.815 rgba(208, 187, 73, 255), stop:0.88 rgba(187, 156, 51, 255), stop:0.935 rgba(137, 108, 26, 255), stop:1 rgba(35, 40, 3, 255));
+                </string>
+   </property>
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_a">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>21</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>a =</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_x">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>102</y>
+     <width>115</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;
                     border-radius: 5px;
                 </string>
-            </property>
-        </widget>
-        <widget class="QLabel" name="label_answer">
-            <property name="geometry">
-                <rect>
-                    <x>12</x>
-                    <y>157</y>
-                    <width>148</width>
-                    <height>16</height>
-                </rect>
-            </property>
-            <property name="font">
-                <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                </font>
-            </property>
-            <property name="text">
-                <string>Ответ:</string>
-            </property>
-        </widget>
-        <widget class="QLabel" name="label_img">
-            <property name="geometry">
-                <rect>
-                    <x>170</x>
-                    <y>9</y>
-                    <width>471</width>
-                    <height>121</height>
-                </rect>
-            </property>
-            <property name="text">
-                <string/>
-            </property>
-        </widget>
-        <widget class="QPushButton" name="btn_exit">
-            <property name="geometry">
-                <rect>
-                    <x>504</x>
-                    <y>140</y>
-                    <width>125</width>
-                    <height>50</height>
-                </rect>
-            </property>
-            <property name="font">
-                <font>
-                    <family>Segoe UI</family>
-                    <pointsize>10</pointsize>
-                </font>
-            </property>
-            <property name="styleSheet">
-                <string notr="true">border: 1px solid gray;
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_answer">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>157</y>
+     <width>148</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ответ:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_img">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>9</y>
+     <width>471</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_exit">
+   <property name="geometry">
+    <rect>
+     <x>504</x>
+     <y>140</y>
+     <width>125</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;
                     border-radius: 5px;
-                    background: #e1e1e1;
+                    background: rgb(255, 85, 127);
                 </string>
-            </property>
-            <property name="text">
-                <string>Выход</string>
-            </property>
-        </widget>
-    </widget>
-    <resources/>
-    <connections/>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
 </ui>

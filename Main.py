@@ -41,10 +41,11 @@ class Main(QDialog):
                 answer = (a / x) + b / (x ** 2)
             else:
                 answer = (a ** 2) * (x + b)
-            self.label_answer.setText('Ответ: ' + str(format(answer, '.2f')))
+            self.label_answer.setText('Ответ: ' + str(format(answer, '.5f')))
+            self.label_answer.setStyleSheet('   background: rgb(0, 255, 0)')
         except:
-            self.label_answer.setText(
-                'Ошибка!')
+            self.label_answer.setText('Ошибка!')
+            self.label_answer.setStyleSheet('   background: rgb(255, 0, 0)')
 
     # Процедура очистки данных
     def clear(self):
@@ -52,6 +53,7 @@ class Main(QDialog):
         self.lineEdit_b.setText('')
         self.lineEdit_x.setText('')
         self.label_answer.setText('Ответ: ')
+        self.label_answer.setStyleSheet('')
 
 
 # Основная часть программы
